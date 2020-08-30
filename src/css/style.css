@@ -1,0 +1,181 @@
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header */
+.header .brand-logo {
+  position: static;
+  padding-left: .5em;
+  font-size: 1.5rem;
+}
+
+.header .currency-select {
+  width: 120px;
+}
+
+.header .currency-select input.select-dropdown {
+  margin: 0;
+  color: #fff;
+  border-bottom: none;
+}
+
+.header .currency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .currency-select .caret {
+  fill: #ffffff;
+}
+
+.header .fav-select {
+  margin-right: 2.5em;
+}
+
+.header .fav-select input.select-dropdown {
+  margin: 0;
+  color: #fff;
+  border-bottom: none;
+}
+
+.header .fav-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .fav-select .caret {
+  fill: #ffffff;
+}
+
+.form-section .input-field input[type="text"]:not(.browser-default):focus {
+  border-bottom: 1px solid #c713d8;
+  -webkit-box-shadow: 0 1px 0 0 #8e089b;
+          box-shadow: 0 1px 0 0 #8e089b;
+}
+
+.form-section .input-field .datepicker-date-display {
+  background-color: #670570;
+}
+
+.form-section .input-field .datepicker-table .is-today {
+  color: #670570;
+}
+
+.form-section .input-field .datepicker-cancel {
+  color: #2e0d86;
+}
+
+.form-section .input-field .datepicker-done {
+  color: #40af0d;
+}
+
+.tickets-empty-res-msg {
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #454545;
+  border-radius: 1em;
+  text-transform: uppercase;
+  padding: 1.5em;
+  font-weight: bold;
+  color: red;
+  margin-top: 1.5em;
+}
+
+.ticket-card {
+  position: relative;
+  padding: 0.5em 1em;
+}
+
+.ticket-favourite {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: pointer;
+}
+
+.ticket-airline {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px solid #454545;
+  margin-bottom: 0.5em;
+}
+
+.ticket-airline img {
+  height: 100px;
+}
+
+.ticket-airline-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.ticket-destination i {
+  margin: 0 .2em;
+}
+
+.ticket-city {
+  font-size: 1.5rem;
+}
+
+.ticket-time-price {
+  position: relative;
+}
+
+.ticket-time-departure {
+  margin: 0.5em 0 .5em 1em;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.ticket-price {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  padding: 1em;
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.ticket-additional-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ticket-transfers {
+  font-size: 1.5em;
+}
+
+.ticket-flight-number {
+  font-size: 1.5em;
+}

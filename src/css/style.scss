@@ -1,0 +1,165 @@
+.d-flex{
+  display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-items-center{
+  justify-items: center;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.mr-auto{
+  margin-right: auto;
+}
+
+.mx-auto{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header */
+.header{
+  .brand-logo{
+    position: static;
+    padding-left: .5em;
+    font-size: 1.5rem;
+  }
+  .currency-select{
+    width: 120px;
+    input.select-dropdown{
+      margin: 0;
+      color: #fff;
+      border-bottom: none;
+      &:focus{
+        border-bottom: none;
+      }
+    }
+    .caret{
+      fill: #ffffff;
+    }
+  }
+
+  .fav-select{
+    margin-right: 2.5em;
+    input.select-dropdown{
+      margin: 0;
+      color: #fff;
+      border-bottom: none;
+      &:focus{
+        border-bottom: none;
+      }
+    }
+    .caret{
+      fill: #ffffff;
+    }
+  }
+}
+
+// Form section
+.form-section{
+  .input-field{
+    input[type="text"]:not(.browser-default){
+      &:focus{
+        border-bottom: 1px solid rgb(199, 19, 216);
+        box-shadow: 0 1px 0 0 rgb(142, 8, 155);
+      }
+    }
+    .datepicker{
+      &-date-display{
+        background-color: rgb(103, 5, 112);
+      }
+      &-table .is-today{
+        color: rgb(103,5,112);
+      }
+      &-cancel{
+        color: rgb(46, 13, 134);
+      }
+      &-done{
+        color: rgb(64, 175, 13);
+      }
+    }
+  }
+}
+
+// tickets section
+
+.tickets-empty-res-msg {
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #454545;
+  border-radius: 1em;
+  text-transform: uppercase;
+  padding: 1.5em;
+  font-weight: bold;
+  color: red;
+  margin-top: 1.5em;
+}
+
+.ticket{
+  &-card{
+    position: relative;
+    padding: 0.5em 1em;
+  }
+  &-favourite{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+  }
+  &-airline{
+    justify-content: space-around;
+    border-bottom: 1px solid #454545;
+    margin-bottom: 0.5em;
+    img{
+      height: 100px;
+    }
+    &-name{
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+  &-destination{
+    i{
+      margin: 0 .2em;
+    }
+  }
+  &-city{
+    font-size: 1.5rem;
+  }
+  &-time-price{
+    position: relative;
+  }
+  &-time-departure{
+    margin: 0.5em 0 .5em 1em;
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  &-price{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 1em;
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+  &-additional-info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-transfers{
+    font-size: 1.5em;
+  }
+  &-flight-number{
+    font-size: 1.5em;
+  }
+}
